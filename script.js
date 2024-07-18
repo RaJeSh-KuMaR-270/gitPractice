@@ -4,11 +4,15 @@ function greet() {
 }
 greet();
 
-function greet2(userName) {
-  if (user) {
-    console.log(`Welcome ${userName}`);
-    console.log(`Have a wonderfull day${userName}`);
-  } else console.log("Welcome User");
+const names = ["rajesh", "suresh", "ganesh", "dinesh", "naveen"];
+
+function greet2(userNames) {
+  for (const name of userNames) {
+    if (name) {
+      console.log(`Welcome ${name}`);
+      console.log(`Have a wonderfull day${name}`);
+    } else console.log("Welcome User");
+  }
 }
 
-greet2("rajesh");
+greet2(names);
