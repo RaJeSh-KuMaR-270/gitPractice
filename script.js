@@ -4,7 +4,7 @@ function greet() {
 }
 greet();
 
-const names = ["rajesh", "suresh", "ganesh", "dinesh", "naveen"];
+const namesArr = ["rajesh", "suresh", "ganesh", "dinesh", "naveen"];
 
 function greet2(userNames) {
   for (const name of userNames) {
@@ -15,4 +15,4 @@ function greet2(userNames) {
   }
 }
 
-greet2(names);
+greet2(namesArr);
